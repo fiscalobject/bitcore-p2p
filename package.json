@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-p2p",
-  "version": "1.1.1",
-  "description": "Interface to the bitcoin P2P network for bitcore",
+  "name": "ufocore-p2p",
+  "version": "1.1.0",
+  "description": "Interface to the UFO P2P network for UFOcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "build": "gulp"
   },
   "contributors": [
+    {
+      "name": "Peter Bushnell",
+      "email": "peter.bushnell@ufobject.com"
+    },
     {
       "name": "Yemel Jardi",
       "email": "yemel@bitpay.com"
@@ -44,21 +48,21 @@
     }
   ],
   "keywords": [
-    "bitcoin",
-    "bitcore"
+    "ufo",
+    "ufocore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-p2p.git"
+    "url": "https://github.com/fiscalobject/ufocore-p2p.git"
   },
   "dependencies": {
-    "bitcore-lib": "^0.13.7",
+    "ufocore-lib": "^0.13.19",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
+    "ufocore-build": "git://github.com/fiscalobject/ufocore-build.git",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
